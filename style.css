@@ -1,0 +1,218 @@
+.rectangle {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  background: rgba(209, 209, 209, 0.385);
+  text-align: left;
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+hr {
+  border: none;
+  border-top: 3px solid rgba(243, 243, 243, 0.693);
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+nav {
+  display: flex;
+  justify-items: center;
+}
+
+/* ul {
+    display: flex;
+
+} */
+#logo {
+  height: 20px;
+  width: 20px;
+}
+
+#wrap {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  z-index: 99;
+  position: relative;
+}
+
+.navbar {
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+.navbar li {
+  height: auto;
+  width: 135.8px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  font: normal bold 15px/1em Arial, Verdana, Helvetica;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+  padding: 18px 0;
+  border-bottom: 1px solid #fdfdfd;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+/*
+.navbar li:hover,
+a:hover {
+
+  background-color: #ffffff;
+}
+*/
+.navbar li ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li:hover ul {
+  display: block;
+  color: #ffffff;
+}
+
+/*
+.navbar li ul li {
+
+}
+*/
+.navbar li ul li a {
+  border-left: 1px solid #3700ff;
+  border-right: 1px solid #3700ff;
+  border-bottom: 1px solid #3700ff;
+}
+
+/*
+  .navbar li ul li a:hover {
+    background-color: #ffffff;
+  }
+
+*/
+/*
+  .Maison {
+    border-bottom-color: 1px solid red;
+  }
+  */
+.centrer2 {
+  text-align: center;
+  color: coral;
+  font: normal bold 22px/1em Arial, Verdana, Helvetica;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+.red-color {
+  border-bottom: 4px solid red;
+}
+
+.italic {
+  padding: 15px;
+  width: 100%;
+  display: block;
+  font-style: italic;
+  color: #ff01ff;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.centrer {
+  text-align: center;
+}
+
+/*
+.bienvenu{
+    color: #ffb836;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.bienvenu2{
+    color: #ffb836;
+    text-align: left;
+    margin-left: 50%;
+}
+
+.texte1{
+    text-align: start;
+    margin-right: 50%;
+    margin-left: 5%;
+}
+
+.texte2{
+    text-align: start;
+    margin-right: 5%;
+    margin-left: 50%;
+}
+*/
+.texte2 {
+  text-align: start;
+}
+
+p, b {
+  display: inline-block;
+  width: 50%;
+  font: normal bold 14px/1em Arial, Verdana, Helvetica;
+  color: black;
+}
+p .texte2, b .texte2 {
+  width: 100%;
+}
+
+b {
+  color: #1900ff;
+}
+
+.flex-texte {
+  display: flex;
+}
+
+.flex-image {
+  display: flex;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid rgba(0, 196, 255, 0.693);
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+/*
+.bienvenu2{
+    display: inline-block;
+    width: 50%;
+
+}
+*/
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1109/Ice_Mountains-landscape_wallpaper_selection_1366x768.jpg);
+}
+
+/*# sourceMappingURL=style.css.map */

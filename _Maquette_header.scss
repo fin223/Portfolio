@@ -1,0 +1,132 @@
+.rectangle {
+    //display: inline-block;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    background:rgba(209, 209, 209, 0.385);
+    text-align: left;
+    vertical-align: top;
+    
+}
+a {
+
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+li {
+
+    text-decoration: none;
+    list-style: none;
+}
+
+hr {
+    
+    border: none;
+    border-top: 3px solid rgba(243, 243, 243, 0.693); 
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+nav {
+    display: flex;
+    justify-items: center;
+
+}
+/* ul {
+    display: flex;
+    
+} */
+#logo {
+    height: 20px;
+    width: 20px;
+    
+}
+
+#wrap {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    
+  }
+  .navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+  .navbar li {
+    height: auto;
+    width: 135.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 15px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .navbar a {
+    padding: 18px 0;
+    
+    border-bottom: 1px solid #fdfdfd;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+  }
+  /*
+  .navbar li:hover,
+  a:hover {
+    
+    background-color: #ffffff;
+  }
+  */
+  .navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:hover ul {
+    display: block;
+    
+    color: #ffffff;
+  }
+  /*
+  .navbar li ul li {
+    
+  }
+  */
+  .navbar li ul li a {
+    border-left: 1px solid #3700ff;
+    border-right: 1px solid #3700ff;
+    
+    border-bottom: 1px solid #3700ff;
+  }
+  /*
+  .navbar li ul li a:hover {
+    background-color: #ffffff;
+  }
+
+*/
+
+/*
+  .Maison {
+    border-bottom-color: 1px solid red;
+  }
+  */
+
+.centrer2 {
+  text-align: center;
+  color: coral;
+  font: normal bold 22px/1em Arial, Verdana, Helvetica;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+.red-color {
+  border-bottom: 4px solid red;
+  // border-right: 4px solid red;
+}

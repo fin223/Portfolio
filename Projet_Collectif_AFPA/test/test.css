@@ -1,0 +1,146 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.logo1 {
+  top: 50%;
+  left: 50%;
+  position: relative;
+  width: 400px;
+  height: 320px;
+  background-color: rgba(75, 75, 75, 0.185);
+  border-radius: 35px;
+}
+
+.logo2 {
+  margin-left:1%;
+  margin-right: 30%;
+  margin-top: 20%;
+position: relative;
+top: 28px; left: 18px;
+background-color: rgba(88, 88, 88, 0.185);
+width: 350px;
+height: 250px;
+border-radius: 35px;
+border: solid 0.1em;
+border-color: white;
+z-index: 0;
+}
+
+.blob-1 {
+  
+  background: transparent;
+  transition: all 0.4s 0.15s ease-in-out;
+}
+
+.logo1.active .blob-1 {
+  left: -230%;
+  top: -230%;
+}
+
+.logo1.active .bloub_1{
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: large;
+}
+
+.rectangle {
+  width: 100px;
+  height: 70px;
+  border-radius: 20%;
+  background: #666565;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  z-index: 20;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
+
+
+
+.logo3 {
+  width: 205px;
+height: 140.5px;
+background-color: white;
+position: relative;
+bottom: 170px; left: 90px;
+border-radius: 40px;
+}
+
+.circle {
+  width: 88px;
+  height: 86px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 280px; left: 145px;
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+}
+
+.logo4 {
+  width: 90px;
+  height: 75px;
+  transform: rotate(-45.98deg);
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 428px; left: 240px;
+  border-radius: 15%;
+  z-index: 2;
+}
+
+.logo5 {
+  width: 101.31px;
+  height: 79.16px;
+  position: relative;
+  bottom: 485px; left: 215px;
+  background-color: rgb(27, 27, 27);
+  border-radius: 10%;
+}
+
+.circle2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(27, 27, 27);
+  position: relative;
+  bottom: 545px; left: 255px;
+  z-index: 3;
+}
+
+
+
+.name {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  font-family: 'Italiana';
+  font-style: normal;
+  position: relative;
+  bottom: 355px;
+  text-align: center; 
+}
+
+.btncircle {
+  width: 88px;
+  height: 86px;
+  border-radius: 50%;
+  background-color: rgb(26, 26, 26);
+}
+
+.btncircle:hover {
+  background-color: crimson;
+}
+

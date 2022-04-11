@@ -1,0 +1,75 @@
+body {
+
+    background: linear-gradient(40deg, rgb(0, 145, 255), rgb(37, 160, 255), rgb(106, 190, 255), rgb(151, 210, 255), rgb(202, 232, 255) );
+    //background-image: url("https://media.discordapp.net/attachments/943449714160963624/956497400883732510/unknown.png?width=812&height=609");
+    background: linear-gradient(-40deg, rgb(202, 232, 255), rgb(151, 210, 255), rgb(106, 190, 255), rgb(37, 160, 255), rgb(0, 145, 255) ) ;
+}
+
+span, strong, p {
+
+    color: beige;
+
+}
+span:hover {
+
+    color: black;
+    
+}
+
+.icotop-holder {
+    flex: auto;
+    position: relative;
+}
+
+.row {
+
+}
+/*
+.img-box {
+    
+}*/
+
+.coll-2{width:50%;}
+.coll-3{width:33.333%;}
+.coll-4{width:25%;}
+.coll-5{width:20%;}
+.coll-6{width:16.6666%;}
+.coll3-holder{margin:0 -1px 0 0;}
+.nospace .box{margin:0;}
+@media only screen and (max-width:1400px){.coll-5{width:25%;}
+}
+@media only screen and (max-width:1219px){.coll-5{width:33.333%;}
+}
+@media only screen and (max-width:991px){.coll-5{width:50%;}
+}
+@media only screen and (max-width:500px){.coll-5{width:100%;}
+}
+@media only screen and (max-width:1400px){.coll-3{width:33.333%;}
+}
+@media only screen and (max-width:1219px){.coll-3{width:33.333%;}
+.portfolio-block .title{font-size:15px;}
+}
+@media (max-width:1191px){.portfolio-block .link span{margin-top:80px;}
+}
+@media only screen and (max-width:991px){.coll-3{width:50%;}
+.portfolio-block .link span{margin-top:60px;}
+}
+@media only screen and (max-width:700px){.portfolio-block .title{font-size:13px;}
+.portfolio-block .link span{margin-top:85px;}
+.portfolio-block .text-box p{font-size:12px;}
+}
+@media only screen and (max-width:500px){.coll-3{width:100%;}
+.portfolio-block .box{margin:0 0 30px 0;}
+}
+@media only screen and (max-width:414px){.portfolio-block .link span{margin-top:50px;}
+.portfolio-block .box:hover .link{width:100%;display:block;height:362px;}
+}
+@media only screen and (max-width:375px){.portfolio-block .link span{margin-top:60px;}
+.portfolio-block .box:hover .link{width:100%;display:block;height:350px;}
+}
+@media (max-width:768px){.f-iconbox.right .icon{right:auto;left:0;}
+.f-iconbox.right{padding-right:0;text-align:left;padding-left:96px;}
+}
+@media (min-width:768px) and (max-width:991px){.services_mb{margin-bottom:10px !important;}
+.services_mb2{margin-bottom:25px !important;}
+}

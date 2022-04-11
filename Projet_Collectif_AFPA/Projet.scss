@@ -1,0 +1,196 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #333;
+}
+.container-menu {
+  width: 520px;
+  height: 520px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+   
+}
+
+.btn-menu-1 {
+  width: 250px;
+  height: 220px;
+  border-radius: 20%;
+  background: #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 20;
+  cursor: pointer;
+  
+}
+
+.btn-menu-2 {
+  width: 180px;
+  height: 150px;
+  border-radius: 20%;
+  background: #666565;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 20;
+  cursor: pointer;
+  
+}
+
+.ligne-1 {
+  width: 32px;
+  height: 70px;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 53%;
+  left: 35%;
+  transform: translate(-50%,-50%);
+  transition: all 0.1s ease-in-out;
+}
+
+.ligne-2 {
+  width: 68px;
+  height: 37px;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 64.25%;
+  left: 51%;
+  transform: translate(-50%,-50%);
+  transition: all 0.1s ease-in-out;
+}
+
+.ligne-3 {
+  width: 48px;
+  height: 37px;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 9%;
+  left: 61%;
+  transform: translate(-25%,-50%);
+  transform: rotate(45deg);
+  transition: all 0.1s ease-in-out;
+}
+
+.ligne-4 {
+  width: 32px;
+  height: 70px;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  top: 1%;
+  left: 55%;
+  transform: translate(-50%,-50%);
+  transform: rotate(45deg);
+  transition: all 0.1s ease-in-out;
+}
+
+
+.circle {
+  width: 33px;
+  height: 33px;
+  border-radius: 16px;
+  background: rgb(0, 0, 0);
+  position: absolute;
+  top: 56%;
+  left: 48%;
+  transform: translate(-50%,-50%);
+  transition: all 0.1s ease-in-out;
+}
+
+.rectangle {
+  width: 100px;
+  height: 70px;
+  border-radius: 20%;
+  background: #666565;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  z-index: 20;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
+.blob {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blob-1 {
+  
+  background: transparent;
+  transition: all 0.4s 0.15s ease-in-out;
+}
+.blob-2 {
+  background: transparent;
+  transition: all 0.4s 0.3s ease-in-out;
+}
+.blob-3 {
+  background: transparent;
+  transition: all 0.4s 0.45s ease-in-out;
+}
+.blob-4 {
+  background: transparent;
+  transition: all 0.4s 0.6s ease-in-out;
+}
+
+.bloub_1 {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: large;
+  text-align: center;
+  position: relative;
+  top: 20px; left: 20px;
+  
+}
+
+.container-menu.active .blob-1 {
+  left: -30%;
+  top: -30%;
+}
+.container-menu.active .blob-2 {
+  left: 130%;
+  top: -30%;
+}
+.container-menu.active .blob-3 {
+  left: 130%;
+  top: 130%;
+}
+.container-menu.active .blob-4 {
+  left: -30%;
+  top: 130%;
+}
+.container-menu.active .bloub_1{
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: large;
+}
+
+#presentphoto {
+  position: relative;
+  left: 5px; 
+}

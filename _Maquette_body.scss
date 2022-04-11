@@ -1,0 +1,110 @@
+
+
+.italic{
+    padding: 15px;
+    width: 100%;
+    display: block;
+    font-style:italic;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.5);
+    
+}
+/*
+.itali{
+    padding: 15px;
+    width: 100%;
+    display: block;
+    font-style:italic;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.5);
+    
+}
+*/
+.centrer {
+    text-align: center;
+}
+.flex-texte {
+    background: rgba(255, 255, 255, 0.5);
+}
+/*
+.bienvenu{
+    color: #ffb836;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.bienvenu2{
+    color: #ffb836;
+    text-align: left;
+    margin-left: 50%;
+}
+
+.texte1{
+    text-align: start;
+    margin-right: 50%;
+    margin-left: 5%;
+}
+
+.texte2{
+    text-align: start;
+    margin-right: 5%;
+    margin-left: 50%;
+}
+*/
+.texte2{
+    text-align: start;
+    
+}
+
+p, b{
+    display: inline-block;
+    width: 50%;
+    font: normal bold 14px/1em Arial, Verdana, Helvetica;
+    color: rgb(0, 0, 0);
+    .texte2{
+        width: 100%;
+        
+    }
+}
+b{
+    color: #00a6ff;
+    
+}
+
+.flex-texte {
+    display: flex;
+
+}
+
+.flex-image {
+    display: flex;
+
+}
+
+hr {
+    
+    border: none;
+    border-top: 2px solid rgba(0, 196, 255, 0.693);
+    
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+/*
+.bienvenu2{
+    display: inline-block;
+    width: 50%;
+
+}
+*/
+// background:rgba(209, 209, 209, 0.385);
+body
+{
+    margin: 0;
+    padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1109/Ice_Mountains-landscape_wallpaper_selection_1366x768.jpg);
+
+}

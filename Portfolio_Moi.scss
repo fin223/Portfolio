@@ -1,0 +1,178 @@
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/943449714160963624/956497400883732510/unknown.png);
+}
+
+
+section{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 98%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: rgba(255, 255, 255, 0.66);
+}
+
+section h2{
+    margin: 20px 0;
+    width: 90%;
+}
+section > div{
+    width: 90%;
+}
+
+.exp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.exp-info{
+    display: flex;
+    flex-flow: column wrap;
+}
+.exp-logo{
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+.exp-info{
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+.exp img{
+    width: 100%;
+}
+.exp h3{
+    font-size:  1.2em;
+}
+.exp h4{
+    font-size:  1em;
+    font-weight: normal;
+}
+
+/*SECTION COMPETENCES*/
+.h3gauche{
+    width: 90%;
+}
+.comp{
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.comp p{
+    flex: 0 0 40%;
+}
+.conteneur-barre{
+    flex: 0 0 60%;
+    border-radius: 6px;
+    background-color: white;
+    border-bottom: 0px ridge grey;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.c5{
+    width: 5%;
+    
+}
+.c10{
+    width: 10%;
+   
+}
+.c15{
+    width: 15%;
+    
+}
+.c20{
+    width: 20%;
+   
+}
+.c25{
+    width: 25%;
+    
+}
+.c30{
+    width: 30%;
+   
+}
+.c35{
+    width: 35%;
+   
+}
+.c40{
+    width: 40%;
+    
+}
+.c45{
+    width: 45%;
+   
+}
+.c50{
+    width: 50%;
+    
+}
+.c55{
+    width: 55%;
+    
+}
+.c60{
+    width: 60%;
+   
+}
+.c65{
+    width: 65%;
+    
+}
+.c70{
+    width: 70%;
+    
+}
+.c75{
+    width: 75%;
+    
+}
+.c80{
+    width: 80%;
+    
+}
+.c85{
+    width: 85%;
+    
+}
+.c90{
+    width: 90%;
+    
+}
+.c95{
+    width: 95%;
+    
+}
+.c100{
+    width: 100%;
+    
+   
+}
+.comp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.conteneur-barre2{
+    flex: 0 0 100%;
+    height: 0.6em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    
+}
+
+span, strong, p {
+    color: beige;
+}
